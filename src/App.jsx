@@ -1,7 +1,8 @@
 // import { MuiAvatar } from "./Day13/MuiAvatar";
 // import Chart from "./Day16/Chart";
 // import "./App.css";
-import MuiScarterChart from "./Day16/MuiScarterChart";
+// import MuiScarterChart from "./Day16/MuiScarterChart";
+import MuiLoading from "./Day17/MuiLoading";
 // import MuiPieChart from "./Day17/MuiPieChart";
 // import AreaLineChart from "./Day16/AreaLineChart";
 // import MuiBarChart from "./Day15/MuiBarChart";
@@ -36,7 +37,8 @@ function App() {
         </Grid>
       </Grid> */}
       {/* <MuiPieChart /> */}
-      <MuiScarterChart />
+      {/* <MuiScarterChart /> */}
+      <MuiLoading />
     </>
   );
 }
