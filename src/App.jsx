@@ -2,7 +2,9 @@
 // import Chart from "./Day16/Chart";
 // import "./App.css";
 // import MuiScarterChart from "./Day16/MuiScarterChart";
-import MuiLoading from "./Day17/MuiLoading";
+// import MuiLoading from "./Day17/MuiLoading";
+// import MuiModal from "./Day18/MuiModal";
+import MuiPopover from "./Day18/MuiPopover";
 // import MuiPieChart from "./Day17/MuiPieChart";
 // import AreaLineChart from "./Day16/AreaLineChart";
 // import MuiBarChart from "./Day15/MuiBarChart";
@@ -38,7 +40,9 @@ function App() {
       </Grid> */}
       {/* <MuiPieChart /> */}
       {/* <MuiScarterChart /> */}
-      <MuiLoading />
+      {/* <MuiLoading /> */}
+      <MuiPopover />
+      {/* <MuiModal /> */}
     </>
   );
 }
