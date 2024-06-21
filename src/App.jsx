@@ -4,7 +4,7 @@
 // import MuiScarterChart from "./Day16/MuiScarterChart";
 // import MuiLoading from "./Day17/MuiLoading";
 // import MuiModal from "./Day18/MuiModal";
-import MuiPopover from "./Day18/MuiPopover";
+// import MuiPopover from "./Day18/MuiPopover";
 // import MuiPieChart from "./Day17/MuiPieChart";
 // import AreaLineChart from "./Day16/AreaLineChart";
 // import MuiBarChart from "./Day15/MuiBarChart";
@@ -16,6 +16,11 @@ import MuiPopover from "./Day18/MuiPopover";
 // import MuiSpeedDial from "./Day12/MuiSpeedDial";
 // import { MuiBreadcrumbs } from "./Day11/MuiBreadcrumbs";
 // import  MuiDrawer  from "./Day11/MuiDrawer";
+
+import MuiStyle from "./MuiStyle";
+
+// import Buttons from "./Day21/Buttons";
+
 // import { Grid } from "@mui/material";
 function App() {
   return (
@@ -41,8 +46,10 @@ function App() {
       {/* <MuiPieChart /> */}
       {/* <MuiScarterChart /> */}
       {/* <MuiLoading /> */}
-      <MuiPopover />
+      {/* <MuiPopover /> */}
       {/* <MuiModal /> */}
+      {/* <Buttons/> */}
+      <MuiStyle />
     </>
   );
 }
